@@ -1,5 +1,5 @@
-var helperCDN = "https://rawgit.com/designdish/ml/marketlink/app/src/javascript/mlhelpers/";
-var distCDN = "https://rawgit.com/designdish/ml/marketlink/app/src/javascript/";
+var helperCDN = "https://rawgit.com/designdish/global-helpers/app/src/javascript/helpers/";
+var distCDN = "https://rawgit.com/designdish/global-helpers/app/src/javascript/";
 var today = new Date();
 
 var buildUrl = function(cdn, file) {
