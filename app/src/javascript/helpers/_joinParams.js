@@ -51,15 +51,15 @@ var joinParameters = function(url, baseParam, targetParam) {
                 target,
                 targetVal
             );
-            result = updateParam(url, target, targetVal);
+            result = updateParam(url, baseParam, newParamVal);
         }
 
         if (url.indexOf(newParam) === -1) {
             if (targetVal != "") {
-                result = appendParam(url, target, targetVal);
+                result = appendParam(url, baseParam, newParamVal);
             }
         } else {
-            result = updateParam(url, target, targetVal);
+            result = updateParam(url, baseParam, newParamVal);
         }
     }
     return result;
