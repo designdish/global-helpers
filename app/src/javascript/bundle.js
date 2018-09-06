@@ -53,6 +53,7 @@ var loadBundle =
             load.js(buildUrl(helperCDN, "_getValue.js")),
             load.js(buildUrl(helperCDN, "_initLinks.js")),
             load.js(buildUrl(helperCDN, "_updateLink.js")),
+            load.js(buildUrl(helperCDN, "_updateURLs.js")),
             // console.log("value helpers loaded @ " + today)
         ])).then(
 
