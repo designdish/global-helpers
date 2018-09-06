@@ -60,13 +60,5 @@ var loadBundle =
         Promise.all([
             load.js(buildUrl(helperCDN, "_setPid.js")),
             // console.log("pid helpers loaded @ " + today)
-        ])).then(
-
-        // load integration of functions into application
-        Promise.all([
-            load.js(buildUrl(distCDN, "marketlinc.integration.us.0828.js")),
-            load.js(buildUrl(distCDN, "marketlinc.integration.global.0828.js")),
-            load.js(buildUrl(distCDN, "marketlinc.integration.0827.js")),
-            // console.log("integration helpers loaded @ " + today)
         ])
     );
