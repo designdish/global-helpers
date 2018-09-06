@@ -31,6 +31,8 @@ var loadBundle =
             load.js(buildUrl(helperCDN, "_joinParams.js")),
             load.js(buildUrl(helperCDN, "_updateJoinedParams.js")),
             load.js(buildUrl(helperCDN, "_updateParams.js")),
+            load.js(buildUrl(helperCDN, "_getSubParam.js")),
+            load.js(buildUrl(helperCDN, "_matchParam.js")),
             // console.log("param helpers loaded @ " + today)
         ])).then(
 
