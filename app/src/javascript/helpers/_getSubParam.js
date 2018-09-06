@@ -1,4 +1,4 @@
- var getSubParameter = function(str) {
-     var regex = new RegExp(/(?<=-pid-)(.*)(?=-ml_count)/);
+ var getSubParameter = function(str, start, end) {
+     var regex = new RegExp('/(?<=' + start + ')(.*)(?=' + end + ')/');
      return regex.exec(str);
  };
